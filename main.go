@@ -23,7 +23,7 @@ const (
 )
 
 func init() {
-	flag.StringVar(&todoDir, "todo-directory", "~/Dropbox/Editorial/ToDo", "the directory of todo files")
+	flag.StringVar(&todoDir, "todo-directory", "~/todo", "the directory of todo files")
 }
 
 func main() {
